@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "麦麦备用插件仓库"
-  text: "一个收集麦麦v0.1插件的仓库（现已支持0.2）                  ![麦麦～](https://img-blog.csdnimg.cn/direct/上传后生成的唯一图片ID.jpg)"
+  text: "一个收集麦麦v0.1插件的仓库（现已支持0.2）"  ![麦麦～](https://img-blog.csdnimg.cn/direct/上传后生成的唯一图片ID.jpg)
   tagline: 麦麦备用插件仓库
   actions:
     - theme: brand
