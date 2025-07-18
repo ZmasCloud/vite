@@ -8,7 +8,7 @@ hero:
   tagline: 麦麦备用插件仓库
   actions:
     - theme: brand
-      text: Let's Begin
+      text: 查看教程
       link: /quick-start/quick-start
 
 features:
