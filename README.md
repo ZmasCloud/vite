@@ -35,6 +35,20 @@ Deploy with EdgeOne Pages.
 ├── edgeone.json        # Project deployment parameters
 └── .gitignore         # Git ignore rules
 ```
+├── .vitepress/          # VitePress configuration
+│   ├── config.mts       # Site configuration
+│   └── theme/           # Custom theme files
+│       └── style.css    # Custom styles
+├── pages/              # Documentation pages
+│   ├── index.md        # Home page
+│   ├── quick-start/    # Quick start guide
+│   ├── advanced/       # Advanced topics
+│   ├── deployment/     # Deployment guides
+│   └── examples/       # Examples
+├── dist/               # Build output directory
+├── package.json        # Project dependencies
+├── edgeone.json        # Project deployment parameters
+└── .gitignore         # Git ignore rules
 
 ## Getting Started
 
