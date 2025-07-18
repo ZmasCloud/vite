@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "vitepress-template",
-  description: "A starter template for VitePress",
+  title: "麦麦备用插件仓库文档",
+  description: "麦麦备用插件仓库",
   srcDir: 'pages',
   outDir: 'dist',
   ignoreDeadLinks: true,
