@@ -14,9 +14,9 @@ export default defineConfig({
       level: [1, 3],    // 显示 h1 到 h3 级别的标题
     },
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Quick Start', link: '/quick-start/quick-start' },
-      { text: 'Examples', link: '/examples/markdown-examples' }
+      { text: '主页', link: '/' },
+      { text: '插件列表', link: 'https://5.zmascloud.xyz' },
+      { text: '麦麦插件生成器', link: '/examples/markdown-examples' }
     ],
 
     sidebar: [
