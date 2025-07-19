@@ -21,13 +21,10 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Quick Start',
+        text: '关于插件生成器',
         collapsed: true,
         items: [
-          { text: 'Overview', link: '/quick-start/quick-start' },
-          { text: 'Installation', link: '/quick-start/quick-start#installation' },
-          { text: 'Basic Setup', link: '/quick-start/quick-start#basic-setup' },
-          { text: 'Configuration', link: '/quick-start/quick-start#configuration' }
+          { text: 'Overview', link: '/quick-start/quick-start' }
         ]
       },
       {
