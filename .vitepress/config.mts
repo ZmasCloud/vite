@@ -24,12 +24,14 @@ export default defineConfig({
         text: 'plugin',
         collapsed: true,
         items: [
-          { text: '关于插件生成器', link: '/quick-start/关于插件生成器' }
+          { text: '关于插件生成器', link: '/quick-start/关于插件生成器' },
+          { text: '关于v0.1', link: '/1/1' },
+          { text: '关于v0.2', link: '/1/2' },
         ]
       },
       {
         text: 'Advanced',
-        collapsed: true,
+        collapsed: false,
         items: [
           { text: 'Custom Theme', link: '/advanced/custom-theme' },
           { text: 'Markdown Extensions', link: '/advanced/markdown-extensions' },
@@ -38,7 +40,7 @@ export default defineConfig({
       },
       {
         text: 'Deployment',
-        collapsed: true,
+        collapsed: false,
         items: [
           { text: 'Build for Production', link: '/quick-start/quick-start#build-for-production' },
           { text: 'GitHub Pages', link: '/quick-start/quick-start#deploy-to-github-pages' },
@@ -55,7 +57,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/TencentEdgeOne/pages-templates/tree/main/examples/vitepress-template' }
+      { icon: 'github', link: 'https://github.com/ZmasCloud/maiplugin' }
     ]
   }
 })
