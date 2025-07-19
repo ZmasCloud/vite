@@ -1,137 +1,16 @@
-# Quick Start
 
-This page demonstrates how to get started with VitePress and includes examples of nested navigation structure.
+[麦麦开发文档](https://docs.mai-mai.org/develop/plugin_develop/plugin_examples)
+## ***目前插件生成器最新稳定版本为0.4！***
+>修改配置时使用硅基流动的用户只需修改167行的apikey（sk-xxxxxxxxx）为您的apikey（sk-开头）即可！
+>>~~记得别把引号删了！~~
+##### 插件生成器生成的插件并不包含__init__.py，所以请按照一下步骤手动创建
+1. 在src/plugins/你的插件名/actions/目录下创建插件文件
+2. 新建**插件名.py**文件
+3. 在src/plugins/你的插件名/__init__.py中导入你的插件类
+```python
+# src/plugins/你的插件名/__init__.py
+from .actions.your_action import YourAction#your_action是是你的插件文件，例如插件a.py，这里就是.actions.a
 
-## Getting Started
-
-### Installation
-
-First, install VitePress in your project:
-
-```bash
-npm install -D vitepress
+__all__ = ["YourAction"]#这一行是麦麦主程序显示的动作名称
 ```
 
-### Basic Setup
-
-Create your first documentation page:
-
-```bash
-mkdir docs
-echo '# Hello VitePress' > docs/index.md
-```
-
-### Configuration
-
-Create a basic configuration file:
-
-```js
-// .vitepress/config.js
-import { defineConfig } from 'vitepress'
-
-export default defineConfig({
-  title: 'My Docs',
-  description: 'My documentation site'
-})
-```
-
-## Advanced Features
-
-### Custom Theme
-
-You can customize the theme by creating your own theme files:
-
-```js
-// .vitepress/theme/index.js
-import DefaultTheme from 'vitepress/theme'
-import './custom.css'
-
-export default DefaultTheme
-```
-
-### Markdown Extensions
-
-VitePress supports various markdown extensions:
-
-::: tip
-This is a tip box
-:::
-
-::: warning
-This is a warning box
-:::
-
-::: danger
-This is a danger box
-:::
-
-### Code Highlighting
-
-VitePress provides excellent syntax highlighting:
-
-```js
-function hello() {
-  console.log('Hello, VitePress!')
-}
-```
-
-```css
-.custom-style {
-  color: #42b883;
-  font-weight: bold;
-}
-```
-
-## Deployment
-
-### Build for Production
-
-```bash
-npm run docs:build
-```
-
-### Deploy to GitHub Pages
-
-1. Push your code to GitHub
-2. Enable GitHub Pages in repository settings
-3. Set source to GitHub Actions
-4. Create deployment workflow
-
-### Netlify Deployment
-
-1. Connect your repository to Netlify
-2. Set build command: `npm run docs:build`
-3. Set publish directory: `docs/.vitepress/dist`
-
-## Best Practices
-
-### File Organization
-
-Organize your documentation with a clear structure:
-
-```
-docs/
-├── guide/
-│   ├── getting-started.md
-│   ├── installation.md
-│   └── configuration.md
-├── reference/
-│   ├── config.md
-│   └── theme.md
-└── index.md
-```
-
-### Navigation Structure
-
-Use clear and logical navigation:
-
-- Group related pages together
-- Use descriptive titles
-- Keep navigation depth reasonable (2-3 levels max)
-
-### Content Guidelines
-
-- Write clear, concise content
-- Use code examples where helpful
-- Include screenshots for complex features
-- Keep pages focused on a single topic 
