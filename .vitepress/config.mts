@@ -21,10 +21,10 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: '关于插件生成器',
+        text: 'plugin',
         collapsed: true,
         items: [
-          { text: 'Overview', link: '/quick-start/quick-start' }
+          { text: '关于插件生成器', link: '/quick-start/关于插件生成器' }
         ]
       },
       {
