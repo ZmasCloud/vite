@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 查看教程
-      link: /quick-start/quick-start
+      link: /quick-start/关于插件生成器
 
 features:
   - title: 整合插件
