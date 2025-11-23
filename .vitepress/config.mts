@@ -15,7 +15,7 @@ export default defineConfig({
     },
     nav: [
       { text: '主页', link: '/' },
-      { text: '插件列表', link: 'https://5.zmascloud.xyz' },
+      { text: '插件列表', link: 'https://5.zmas.xyz' },
       { text: '麦麦插件生成器', link: '/examples/markdown-examples' }
     ],
 
